@@ -11,6 +11,8 @@
 |
  */
 
-Route::get('/', function () {
-	return view('post_depository_register');
-});
+//Route::get('/', function () {
+//	return view('post_depository_register');
+//});
+
+Route::get('/', 'PostController@index');
